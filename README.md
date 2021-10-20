@@ -1,1 +1,1 @@
-# Car-Price-Prediction
+# Pima_Diabetes-Prediction
