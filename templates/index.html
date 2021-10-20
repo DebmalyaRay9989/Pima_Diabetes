@@ -8,10 +8,17 @@
 </head>
 
 <body>
-
-    <div style="color:blue">
+		<style>
+		body {
+				background-image: url('5.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: 100% 100%;
+			 }
+		</style>
+    <div style="color:black">
         <form action="{{ url_for('predict')}}" method="post">
-		    <h3>Classification Model For Diabetes </h3>
+		    <h3><b><u>CLASSIFICATION MODEL FOR DIABETES</u></b></h3>
             <h3>Pregnancies</h3><input id="first" name="Pregnancies" required="required">
             <h3>Glucose</h3><br><input id="second" name="Glucose" required="required">
             <h3>BloodPressure</h3><input id="third" name="BloodPressure" required="required">
